@@ -1,0 +1,53 @@
+1. npm init 실행하기 하여 package.json 생성
+D:\Study\Vue.js\vue-nodebird\ch1\front>npm init
+npm WARN npm npm does not support Node.js v10.0.0
+~
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (front) vue-nodebird-front
+version: (1.0.0)
+description:
+entry point: (nuxt.config.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to D:\Study\Vue.js\vue-nodebird\ch1\front\package.json:
+
+{
+  "name": "vue-nodebird-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nuxt.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes)
+
+D:\Study\Vue.js\vue-nodebird\ch1\front>
+
+2. npm i vue nuxt 설치 ( node_modules 설치됨)
+D:\Study\Vue.js\vue-nodebird\ch1\front>npm i vue nuxt
+
+3. package.json 파일을 열어서 아래와 같이 추가함
+  "scripts": {
+    "dev": "nuxt"
+  }
+
+4.vuetify 와 @nuxtjs/vuetify 설치
+D:\Study\Vue.js\vue-nodebird\ch1\front>npm i vuetify @nuxtjs/vuetify
+
+5. axios 설치
+D:\Study\Vue.js\vue-nodebird\ch1\front>npm i @nuxtjs/axios axios
+
+@@@@@@ npm run dev 를 실행
+D:\Study\Vue.js\vue-nodebird\ch1\front>npm run dev
