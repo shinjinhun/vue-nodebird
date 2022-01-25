@@ -1,0 +1,17 @@
+<template>
+  <div>
+    Signup Page
+  </div>
+</template>
+<script>
+  export default {
+    layout: 'admin',
+    data() {
+      return {
+        name: "Nuxt.js",
+      }
+    }
+  }
+
+</script>
+<style></style>
