@@ -2,3 +2,5 @@ node_modules
 dist
 .idea
 .nuxt
+/ch1/front/package-lock.json
+/ch1/front/package.json
