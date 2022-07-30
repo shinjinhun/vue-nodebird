@@ -51,3 +51,10 @@ D:\Study\Vue.js\vue-nodebird\ch1\front>npm i @nuxtjs/axios axios
 
 @@@@@@ npm run dev 를 실행
 D:\Study\Vue.js\vue-nodebird\ch1\front>npm run dev
+
+
+6.eslint 와 eslint-plugin-vue 설치
+D:\Study\Vue.js\vue-nodebird\ch1\front>npm i -D eslint eslint-plugin-vue
+
+@@@ npm run lint 를 실행
+D:\Study\Vue.js\vue-nodebird\ch1\front>npm run lint
