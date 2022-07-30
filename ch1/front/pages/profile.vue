@@ -1,16 +1,16 @@
 <template>
-  <div>
-    Profile Page
-  </div>
+	<div>
+		Profile Page
+	</div>
 </template>
 <script>
-  export default {
-    data() {
-      return {
-        name: "Nuxt.js",
-      }
-    }
-  }
+	export default {
+		data() {
+			return {
+				name: "Nuxt.js",
+			}
+		}
+	}
 
 </script>
 <style></style>
