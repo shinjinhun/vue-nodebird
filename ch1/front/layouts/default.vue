@@ -19,7 +19,7 @@
 				</v-toolbar>
 			</div>
 		</nav>
-		<v-row>
+		<v-row no-gutters>
 			<v-col cols="12" md="4">
 				<login-form />
 			</v-col>
