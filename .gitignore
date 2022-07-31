@@ -4,3 +4,5 @@ dist
 .nuxt
 /ch1/front/package-lock.json
 /ch1/front/package.json
+/ch2/front/package.json
+/ch2/front/package-lock.json
