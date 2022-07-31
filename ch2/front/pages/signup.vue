@@ -75,7 +75,11 @@
 		methods: {
 			onSubmitForm() {
 				if(this.$refs.form.validate()){
-					alert('회원가입 시도!');
+					// alert('회원가입 시도!');
+					this.$store.dispatch('users/signUp', {
+						nickname: this.nickname,
+						email: this.email,
+					});
 				} else {
 					alert('폼이 유효하지 않습니다.');
 				}

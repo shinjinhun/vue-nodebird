@@ -37,6 +37,16 @@
 		components: {
 			LoginForm,
 		},
+		computed: {
+			name() {
+				return this.$store.state.posts.name;
+			}
+		},
+		methods: {
+			onChangeName() {
+				this.$store.commit('posts/bye');
+			}
+		}
 	};
 </script>
 
