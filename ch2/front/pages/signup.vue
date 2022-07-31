@@ -79,7 +79,16 @@
 					this.$store.dispatch('users/signUp', {
 						nickname: this.nickname,
 						email: this.email,
-					});
+					})
+						.then(() => {
+							this.$router.push({
+								path: '/',
+							});
+						})
+						.catch(() => {
+							alert('회원가입 실패');
+						});
+
 				} else {
 					alert('폼이 유효하지 않습니다.');
 				}
